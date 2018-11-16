@@ -43,6 +43,7 @@ def search_destination(graph, start, destination):
 def draw_route(cities): return ' ✈️ -> '.join(cities)
 
 
+
 if __name__ == '__main__':
     air_route = networkx.Graph(air_route)
     networkx.draw(air_route, with_labels=True)
