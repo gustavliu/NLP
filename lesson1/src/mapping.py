@@ -49,3 +49,4 @@ if __name__ == '__main__':
     plt.show()
     route = draw_route(search_destination(air_route, SZ, CM))
     print(route)
+
